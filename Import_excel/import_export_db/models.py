@@ -8,9 +8,9 @@ class Employee(models.Model):
     Eftermiddag = models.CharField(max_length=30,null=True)
     Ferie = models.CharField(max_length=12, default='',null=True)
     #address = models.CharField(max_length=500, default='',null=True)     
-    DOB = models.DateField(null=True, blank=True)   
-    gender = models.CharField(max_length=5, default='',null=True)
-    qualification = models.CharField(max_length=50,default='',null=True) 
+    #DOB = models.DateField(null=True, blank=True)   
+    #gender = models.CharField(max_length=5, default='',null=True)
+    #qualification = models.CharField(max_length=50,default='',null=True) 
     Alder = models.FloatField(max_length=50,default='',null=True)   
      
     def __str__(self):
